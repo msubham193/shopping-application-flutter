@@ -1,7 +1,8 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:shopapp/screens/LoginSignUp.dart';
+import 'package:shopapp/screens/Login.dart';
+import 'package:shopapp/screens/intro.dart';
 
 void main() {
   
@@ -17,6 +18,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Flutter Demo',
         debugShowCheckedModeBanner: false,
-        home: LoginSignUp());
+        home: Intro());
   }
 }
